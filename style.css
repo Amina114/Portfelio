@@ -59,7 +59,7 @@ html{
     content: "";
     position: absolute ;
     top : 0 ; 
-    background: url('image.jpg') no-repeat center center/cover ;
+    background: url('image11.avif') no-repeat center center/cover ;
     height: 900px;
     width: 100%;
     z-index:-1 ;
@@ -81,6 +81,14 @@ html{
     text-align: center;
     margin: 40px 0px;
 }
+.headings2 {
+    font-family: century ;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+    
 
 .btn {
     padding : 10px 35px ; 
@@ -88,7 +96,9 @@ html{
     border : 1px solid white ; 
     color: white;
     outline: none;
-    transition: .6s ease;;
+    transition: .6s ease;
+    font-weight: bold;
+    font-size: large;
 }
 
 
