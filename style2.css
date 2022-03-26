@@ -1,0 +1,34 @@
+@keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  .circle-svg {
+    display: block;
+    margin: 10px auto;
+    max-height: 140px;
+  }
+  .circle-svg text {
+    text-align:center;
+    color:white;
+    font-size:10px
+  }
+  .circle-svg text :hover{
+    color: white;
+  }
+ 
+  .circle-svg path.percent {
+    stroke : #fa00fa ;
+    fill: none;
+    stroke-width: 4;
+    stroke-linecap: round;
+    animation: progress 7s ease-out forwards ;
+  }
+  .circle-svg path.around {
+      stroke: #f8f8f8;
+      fill: none;
+      stroke-width: 4;
+  }
+  body {
+    text-align:center;
+  }
