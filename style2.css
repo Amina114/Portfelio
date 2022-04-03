@@ -10,7 +10,6 @@
   }
   .circle-svg text {
     text-align:center;
-    color:white;
     font-size:10px
   }
   .circle-svg text :hover{
@@ -22,7 +21,7 @@
     fill: none;
     stroke-width: 4;
     stroke-linecap: round;
-    animation: progress 7s ease-out forwards ;
+    animation: progress 7s ease-out forwards  ;
   }
   .circle-svg path.around {
       stroke: #f8f8f8;
@@ -32,3 +31,5 @@
   body {
     text-align:center;
   }
+  
+  
